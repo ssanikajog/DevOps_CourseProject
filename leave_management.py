@@ -34,9 +34,9 @@ if __name__ == "__main__":
             days = int(sys.argv[3])
         else:
             # Take user input interactively
-            emp_id = input("Enter Employee ID: ")
-            emp_name = input("Enter Employee Name: ")
-            days = int(input("Enter Number of Leave Days: "))
+            emp_id = "E001"
+            emp_name = "Sanika"
+            days = 8
 
         print("\n=== Program Parameters ===")
         print(f"Employee ID   : {emp_id}")
